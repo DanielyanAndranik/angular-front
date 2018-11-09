@@ -1,0 +1,32 @@
+nav
+{
+    background-color: #575757;
+}
+.brand-logo
+{
+    font-size: 30px;
+}
+.brand-logo .first-letter
+{
+    font-family: 'Audiowide', cursive;
+    font-size: 1.5em;
+    color: #ffff00;
+}
+
+nav .nav-wrapper
+{
+    padding: 0px 15px;
+}
+nav li a{
+    padding: 0px 30px;
+    font-size: 1.3em;
+    color: #ffff00;
+}
+@media only screen and (min-width: 1200px)
+{
+    nav .nav-wrapper
+    {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+}
