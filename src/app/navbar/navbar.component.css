@@ -4,12 +4,12 @@ nav
 }
 .brand-logo
 {
-    font-size: 30px;
+    font-size: 1.5rem;
 }
 .brand-logo .first-letter
 {
     font-family: 'Audiowide', cursive;
-    font-size: 1.5em;
+    font-size: 2.5rem;
     color: #ffff00;
 }
 
@@ -21,12 +21,4 @@ nav li a{
     padding: 0px 30px;
     font-size: 1.3em;
     color: #ffff00;
-}
-@media only screen and (min-width: 1200px)
-{
-    nav .nav-wrapper
-    {
-        max-width: 1200px;
-        margin: 0 auto;
-    }
 }
