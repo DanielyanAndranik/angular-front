@@ -1,0 +1,56 @@
+#home 
+{
+    background: linear-gradient(
+        rgba(80, 80, 80, 0.376), 
+        rgba(80, 80, 80, 0.376)
+    ), url(../../assets/images/home-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 50px;
+    margin-bottom: 15px;
+}
+
+#home .header{
+    color: #ffffff;
+}
+h2.header{
+    margin-top: 250px;
+    font-size: 4rem;
+}
+h1.header{
+    font-size: 5em;
+}
+
+#home .btn-large
+{
+    margin-top: 250px;
+    color: #212121;
+    font-weight: 500;
+}
+
+
+
+.filter form .btn-large
+{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.filter form .btn-large i
+{
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-left: 15px;
+}
+
+.grid
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.book
+{
+    width: 180px;
+    height: 240px;
+    margin: 10px;
+}
