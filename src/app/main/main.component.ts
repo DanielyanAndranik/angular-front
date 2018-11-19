@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { DataService } from './data.service';
 
 @Component({
   selector: 'app-main',
@@ -7,9 +8,23 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MainComponent implements OnInit {
 
-  constructor() { }
+  // public books : BookComponent[];
+  public books;
+
+  constructor(private dataService:DataService) { 
+    
+  }
 
   ngOnInit() {
+    this.getBooks();
+  }
+
+  getBooks() {
+    this.dataService.getBooks().subscribe(
+            data => { this.books = data },
+            err => console.error(err),
+            () => console.log('done loading books')
+          );
   }
 
 }
